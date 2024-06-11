@@ -1,0 +1,34 @@
+.home {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    width: 517px;
+    height: 145px;
+    background: transparent url('../assets/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+}
+
+.heading{
+    position: absolute;
+    top: 150px;
+}
+
+.paragraph{
+    text-wrap: wrap;
+    width: 32vw;
+}
+
+.boxes{
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

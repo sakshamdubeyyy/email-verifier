@@ -1,0 +1,33 @@
+.box {
+    width: 211px;
+    height: 184px;
+    /* UI Properties */
+    background: #112949 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom p{
+    color: white;
+}
+
+.top{
+    display: flex;
+    color: #3CC3F2;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.top h2{
+    font-size: medium;
+}
+
+.top img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+}
